@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <title>Document</title>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <div id="content">
+    <form id="survey-form">
+        <label for="name-label">Name</label><br>
+        <input type="text" id="name"><br>
+        <label for="email-label">Email</label><br>
+        <input type="email" id="email"><br>
+        <label for="number-label">Age(<i>option</i>)</label><br>
+        <input type="number" id="number" min="10" max="50"><br>
+        <label for="option">Which option best describes your current role?</label><br>
+        <select>
+            <option>Front-end</option>
+            <option>Back-end</option>
+        </select>
+        <label id="recom">Would you recommend freeCodeCamp to a friend?</label><br>
+        Definitely<input type="radio" name="defenitely">
+        <input type="radio" name="maybe">Maybe
+        <input type="radio" name="notsure">Not sure
+        <label for="feature">What is your favorite feature of freeCodeCamp?</label><br>
+        <select>
+            <option>Challenges</option>
+            <option>Projects</option>
+        </select>
+        <label for="improve">What would you like to see improved? (<i>Check all that apply</i>)</label><br>
+        <input type="checkbox">Front-end Projects<br>
+        <input type="checkbox">Back-end Projects<br>
+        <input type="checkbox">Data Visualization<br>
+        <label for="textarea">Any comments or suggestions?</label><br>
+        <textarea rows="4" cols="50"></textarea><br>
+
+        <button type="submit" id="submit>">submit</button>
+
+    </form>
+    </div>
+</body>
+</html>

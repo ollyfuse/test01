@@ -1,0 +1,20 @@
+*{
+    align-content: center;
+}
+body{
+    background-color: rgb(42, 86, 206);
+}
+#content{
+    background-color: aliceblue;
+    align-content: center;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+input{
+    width: 100%;
+    padding: 12px 16px;
+    margin: 8px;
+    box-sizing: border-box;
+}
